@@ -1,0 +1,104 @@
+@charset "UTF-8";
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-image: url(https://wallpapercave.com/wp/wp7642340.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.nav1 {
+	display: flex;
+	background: #ee0e02;
+	height: 70px;
+	justify-content: space-between;
+}
+
+.nav1-h {
+	display: flex;
+	height: 70px;
+	margin-inline-start: 80px;
+	overflow: hidden;
+	width: 40%;
+}
+
+.nav1-h img {
+	width: 110px;
+	height: 90px;
+}
+
+.nav1-h h1 {
+	margin-inline-start: 10px;
+	margin-block-start: 5px;
+	font-size: 50px;
+}
+
+.nav1 .nav-links {
+	width: 600px;
+}
+
+.nav-links ul {
+	display: flex;
+}
+
+.nav-links ul #link {
+	display: inline-block;
+	padding: 15px;
+	font-size: 16px;
+	position: relative;
+	cursor: pointer;
+	margin-block-start: 13px;
+	color: white;
+	transition: 0.5s;
+}
+
+.nav-links ul #name {
+	display: inline-block;
+	padding: 15px;
+	font-size: 20px;
+	position: relative;
+	margin-block-start: 13px;
+	color: black;
+}
+
+.nav-links ul #link:active {
+	color: #0000ff;
+}
+
+.nav-links #link::after {
+	content: '';
+	width: 0%;
+	display: block;
+	margin: auto;
+	height: 2px;
+	transition: 0.5s;
+	background: #330000;
+}
+
+.nav-links #link:hover::after {
+	width: 100%;
+}
+
+.nav-links #icon {
+	margin-inline-start: 20px;
+	color: black;
+	margin-block-start: 30px;font-size: 20px;
+}
+
+.adv {
+	background-color: black;
+	height: 40px;
+	text-align: center;
+	color: white;
+}
+
+.adv marquee {
+	padding-block: 9px;
+	font-size: 20px;
+	word-spacing: 5px;
+	width: 90%
+}
